@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scribbler Documentation - a code documentation page template for codrops</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="scribbler-global.css">
+    <link rel="stylesheet" href="scribbler-doc.css">
+    <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+      <h1 class="logo">At Client <span class="logo__thin">Doc</span></h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="https://github.com/Jefry224/Expo2021.git" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+        <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="doc__nav">
+        <ul>
+          <li class="js-btn selected">Primeros pasos</li>
+          <li class="js-btn">Especificaciones Técnicas</li>
+          <li class="js-btn">Keybindings</li>
+          <li class="js-btn">Issues</li>
+        </ul>
+      </aside>
+      <article class="doc__content">
+        <section class="js-section">
+          <h3 class="section__title">Primeros pasos</h3>
+          <p>Dentro de las características principales de la aplicación podemos destacar la posibilidad de realizar comunicación consultas en 
+            tiempo real a la base de datos donde se almacenan los registros que se cargan desde la interfaz del programa, es por esto que todos 
+            los campos deben de ser llenados con los datos requeridos, se han tomado medidas de seguridad como la validación de estos, y la 
+            inhabilitación de caracteres especiales como ("",´´,[],{}), esto con la finalidad de evitar ataques de SQL en la base usando como 
+            canal de comunicación las cajas de texto del programa. <br><br>
+
+            La manejabilidad del programa está orientada y enfocada a la óptima complejidad de "salto" entre formularios, por lo que se da la 
+            opción de solo abrir el formulario que necesite sin la necesidad de cerrar el anterior abierto. Las mejoras implementadas es el uso 
+            de 'Frameworks' o también conocidas como librerías como apoyo para dar color y una mejor experiencia visual tanto para los Empleados 
+            como los usuarios, facilitando el uso de todas las herramientas usando íconos referenciales.
+             </p>
+          <h3 class="section__title">Requisitos Recomenndados</h3>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                - Windows 10 a 64 bits
+                - 4 Gigas de RAM formato DDR3 a una velocidad de 1200Ghz
+                - 250 Megabits de espacio en cualquier unidad de almacenamiento
+                - Conexión a internet requerida mínima de 5 megas 
+                - Resolución mínima (fija) 1360x768 Pixels
+                <p style="font-weight: 800;font-size: 15px;">Requisitos para móvil</p>
+                - Android 8 (Oreo)
+                - 2 Gigas de RAM (Velocidad indiferente)
+                - 100 Megabits de espacio libre en almacenamiento
+                - Resolución mínima (1280x720)
+                - Conexión a internet de 5 megas para una mejor latencia
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Especificaciones Técnicas</h3>
+          <p>
+            Aquí se detalla cada función que se ha incluído dentro del programa AtClient. Tómese en cuenta que puede variar el rendimiento 
+            dependiendo de la conenexión a internet y el rendimiento del equipo, se ha optimizado cada proceso para que consuma la menor 
+            cantidad de recusos del PC.
+          </p>
+          <table id="customers">
+            <tr>
+              <th>Options</th>
+              <th>Value</th>
+              <th>Yes/No</th>
+            </tr>
+            <tr>
+              <td>Encriptación</td>
+              <td>Los datos se manejan de manera confidencial a los cuales solo el Usuario tiene acceso. Esto incluye las contraseñas y datos 
+                de cada consulta
+              </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Alojamiento</td>
+              <td>Al ser un programa que no es financiado por una compañía grande el espacio es considereblemente reducido pero lo suficiente 
+                para poder mantenerlo en funcionamiento durante 1 año hasta la necesidad de renovar y actualizar con nuevas técnologias
+              </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Comunicación</td>
+              <td>Generalizando el programa está creado optimizar los procesos que ya existen, dando paso a una nueva opoción de consulta a travéz 
+                de los móviles personales, allí se puede ver el estado en el que se encuentra la petición o reclamo que se haga.
+              </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Categorización</td>
+              <td>Se divide en niveles de acceso en los cuales se habilitan según el usuario que se registre al sistema, AtCliet cuenta con 3 usuarios,
+                2 de uso especifico y general y un tercer usuario "ROOT" que administra y tiene acceso a todo el proyecto
+              </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Multitarea</td>
+              <td>Una limitante es poder realizar solo una operación por formulario, lo cual se puede compensar en una empresa con el uso de más de 
+                1 equipo de trabajo para la gestión de sus debéres.</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Enfoque</td>
+              <td>AtClient es una aplicación multiplataforma en la que se puede adaptar a las necesidades del cliente, siempre y cuando se pida una 
+                modificación de una versión del programa, es decir que se empleará la mejora que el cliente pida
+              </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Idioma</td>
+              <td>
+              AtClient permite el uso de 2 idiomas (español-Latino/Ingles-Americano) de los cuales se puede configurar desde el primer uso, como dentro del
+              sistema
+              </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Personalización</td>
+              <td>Cuenta con la posibilidad de cambiar de tema (oscuro/claro) para disfrutar de un mejor ambiente de trabajo
+                </td>
+                <td>Si</td>
+              </tr>
+            </tr>
+          </table>
+          <p>Cualquier error que sea detectado dentro de la funcionalidad del programa de AtClient, puede ser reportado dentro de la interfaz 
+            o por medio del correo <u><a href="">AtClientSuport@gmail.com</a></u>
+          </p>
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Keybindings</h3>
+          <p>Lorem ipsum dolor sit amet, scripta tibique indoctum sit ei, mel inani aeterno ad. Facer oratio ex per. At eam movet verear, in sea brute patrioque disputando, usu nonumes torquatos an. Ex his quaerendum intellegebat, ut vel homero accusam. Eum at debet tibique, in vocibus temporibus adversarium sed. Porro verear eu vix, ne usu tation vituperata.</p>
+          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
+          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Issues</h3>
+          <p>Lorem ipsum dolor sit amet, scripta tibique indoctum sit ei, mel inani aeterno ad. Facer oratio ex per. At eam movet verear, in sea brute patrioque disputando, usu nonumes torquatos an. Ex his quaerendum intellegebat, ut vel homero accusam. Eum at debet tibique, in vocibus temporibus adversarium sed. Porro verear eu vix, ne usu tation vituperata.</p>
+          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
+        </section>
+      </article>
+    </div>
+
+    <footer class="footer">
+      <small>©2021 All Rights Reserved. Created by <a href="https://github.com/Jefry224/Expo2021.git" class="font-weight-bold" target="_blank"
+        rel="noopener">At Client Team</a></small>
+    
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
+</html>
